@@ -1,0 +1,8 @@
+The project is divided in 3 folders. 
+The folder dedicated to the DCDC converter contains : 2 matlab data file (one which stores all the project data given us ,the other one which instead is dedicated to the DCDC converter computed parameters), the matlab file DC_DC_Converter where the DCDC converter parameters are retrieved from Data11, 2 matlab files dedicated to the plot of the results and a simulink file together with its init matlab file where 
+the simulation is done.
+
+The folder dedicated to the IPM+INVERTER block contains : 2 matlab data file (one which stores all the project data given us ,the other one which instead is dedicated to the IPM and inverter  computed parameters) , the matlab file IPM_machine where the inverter constraints together with the motor parameters are retrieved from Data11 ,2 matlab files dedicated to the plot of the results and a simulink file with its init matlab file where the simulation is done. The init file contains also a brief description of how to edit the simulink file in order to do the 2 different test required.
+
+The folder dedicated to the FULL SYSTSEM block contains : 3 matlab data file (one which stores all the project data given us ,an other one imported from the IPM+INVERTER folder and an another one imported from DCDC converter folder) ,2 matlab files dedicated to the plot of the results and a simulink file with its init matlab file where the simulation is done.
+
